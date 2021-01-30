@@ -25,7 +25,7 @@ Hi {}, my name is {}!
 You can find the list of available commands with /help.
 """
 
-BOT_IMAGE = "https://telegra.ph/file/93612a540608640355f20.mp4"
+BOT_IMAGE = "https://images.app.goo.gl/6oNsN7B1VYrdtxkz9"
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
@@ -48,7 +48,7 @@ And the following:
 
 DONATE_STRING = """{0} doesn't currently need any donations.
 However you can donate to the creator of the original source code which {0} \
-is based on:- [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen).""".format(dispatcher.bot.first_name)
+is based on:- [Edwin](https://t.me/McCoyEddy) & [Joseph](https://t.me/Joseph_Frank) for making me better.""".format(dispatcher.bot.first_name)
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -149,7 +149,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Pɧơɛnıх to your group.",
+                                text="Add Me to your group.",
                                 url="t.me/{}?startgroup=botstart".format(bot.username),
                             )
                         ]
@@ -157,7 +157,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 ),
             )
     else:
-        update.effective_message.reply_text("Yo, why'd you summon me?")
+        update.effective_message.reply_text("Yo, why'd you summon me? Need help come across @DragonAssociationSupport")
 
 
 # for test purposes
