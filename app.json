@@ -18,6 +18,10 @@
          "required": false, 
          "value": "True"
       },
+      "INFOPIC": {
+         "description": "Set this to True if you want ! to be a command prefix along with /",
+         "value": "True"
+      },
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
