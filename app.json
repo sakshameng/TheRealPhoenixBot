@@ -15,6 +15,7 @@
       },
       "AI_API_KEY": {
          "description": "for starting your bot ai.",
+         "required": false, 
          "value": "True"
       },
       "BAN_STICKER": {
